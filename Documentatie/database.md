@@ -12,10 +12,6 @@
     - title
     - content
 
-## order:
-    - order
-    - section_id
-
 ## projects:
     - id
     - name

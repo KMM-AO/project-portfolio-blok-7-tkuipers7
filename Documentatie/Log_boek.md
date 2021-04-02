@@ -16,3 +16,7 @@
     - laravel project opgezet met vue / vuex /     vue-router
     - database ontworpen
     - benodigheden opgeschreven
+
+## Vrijdag 02-04-2021
+    - laravel project verwijderd met vue / vuex / vue-router (kreeg niet werkend met tailwind)
+    - new laravel breeze project aangemaakt
