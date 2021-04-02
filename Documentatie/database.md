@@ -4,7 +4,7 @@
     - id
     - name
     - level
-    - image
+    - image (maybe)
 
 ## sections:
     - id 
@@ -20,4 +20,9 @@
     - job
     - from
     - till
+
+## project_skill
+    - id
+    - project_id
+    - skill_id
 
