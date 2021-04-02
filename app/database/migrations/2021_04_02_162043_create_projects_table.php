@@ -19,8 +19,8 @@ class CreateProjectsTable extends Migration
             $table->text('description');
             $table->string('link')->nullable();
             $table->string('job');
-            $table->timestamp('from');
-            $table->timestamp('till');
+            $table->timestamp('from')->nullable();
+            $table->timestamp('till')->nullable();
             $table->timestamps();
         });
     }
