@@ -11,7 +11,11 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                main: ['Orbitron', ...defaultTheme.fontFamily.sans]
             },
+            backgroundImage: theme => ({
+                'landing': "url('../img/landing-background.png')",
+            }),
         },
     },
 
