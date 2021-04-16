@@ -6,6 +6,7 @@ use Illuminate\View\Component;
 
 class navigation extends Component
 {
+
     /**
      * Create a new component instance.
      *
@@ -18,8 +19,6 @@ class navigation extends Component
 
     /**
      * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
      */
     public function render()
     {

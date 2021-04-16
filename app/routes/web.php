@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Models\Project;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('/project/{id}',function (Project $project) {
+    return "<h1>Project $project->name</h1>";
+})->name('project.show');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

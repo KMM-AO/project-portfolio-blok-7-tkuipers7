@@ -18,13 +18,14 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="font-sans antialiased">
+    <body class="bg-main">
         <div>
-            @include('layouts.navigation')
+            @include('components.sections.navigation')
             <!-- Page Content -->
-            <main>
+            <main class="flex flex-col space-y-16">
                 {{ $slot }}
             </main>
+            @include('components.sections.footer')
         </div>
     </body>
 </html>

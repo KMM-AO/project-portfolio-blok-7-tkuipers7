@@ -1,8 +1,5 @@
-@php
-$landing = 'x-section.landing';
-@endphp
 <x-app-layout>
-    {{--  Landing  --}}
-{{--    @includeIf('sections.landing', ['class' => 'h-screen flex justify-center items-center'])--}}
-    <x-sections.landing></x-sections.landing>
+    @foreach($section_items as $section_item)
+        @includeIf('components.sections.' . $section_item->name, ['data' => $section_item])
+    @endforeach
 </x-app-layout>

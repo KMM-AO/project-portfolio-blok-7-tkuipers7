@@ -10,12 +10,21 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-                main: ['Orbitron', ...defaultTheme.fontFamily.sans]
+                sans: [...defaultTheme.fontFamily.sans],
+                main: ['Orbitron', ...defaultTheme.fontFamily.sans],
+                second: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             backgroundImage: theme => ({
                 'landing': "url('../img/landing-background.png')",
             }),
+            colors: {
+                'main': '#557486',
+                'secondary': '#252E35',
+            },
+            spacing: {
+                '660px': '660px',
+                'inherit': 'inherit'
+            }
         },
     },
 

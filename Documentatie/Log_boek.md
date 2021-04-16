@@ -21,8 +21,11 @@
     - laravel project verwijderd met vue / vuex / vue-router (kreeg niet werkend met tailwind)
     - new laravel breeze project aangemaakt
 
-## dinsdag 14-04-2021
+## Dinsdag 13-04-2021
     - section seeder (test seeder)
     - navigation afgemaakt
     - sections ophalen uit de database
     - models aangemaakt
+
+## Woensdag 14-04-2021
+    - view composer toegevoegd
