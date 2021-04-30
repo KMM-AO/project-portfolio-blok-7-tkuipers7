@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.dark-blend {
+    background-color: #BCBEB9;
+    background-blend-mode: multiply;
+}
